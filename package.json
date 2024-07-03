@@ -1,6 +1,6 @@
 {
 	"name": "nexus-ioc-react-adapter",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Nexus-IoC adapter for React library",
 	"author": "Isqanderm <aleksandr.melnik.personal@gmail.com> (https://www.linkedin.com/in/isqander-melnik)",
 	"homepage": "https://github.com/Isqanderm/nexus-ioc-react-adapter#readme",
