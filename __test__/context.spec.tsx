@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { Injectable, Module, type NexusApplicationInterface } from "nexus-ioc";
 import { NexusApplicationsServer } from "nexus-ioc/dist/server";
 import type React from "react";
-import { NexusIoCProvider, useNexus } from "../src";
+import { NexusProvider, useNexus } from "../src";
 
 @Injectable()
 class AppService {
@@ -35,9 +35,9 @@ describe("Nexus-IoC provider", () => {
 	describe("NexusIoCProvider", () => {
 		it("provides dependencies to child components", async () => {
 			render(
-				<NexusIoCProvider container={app}>
+				<NexusProvider container={app}>
 					<MockComponent />
-				</NexusIoCProvider>,
+				</NexusProvider>,
 			);
 
 			expect(await screen.findByText("Hello World")).toBeDefined();

@@ -1,1 +1,1 @@
-export { NexusIoCProvider, useNexus } from "./context";
+export { NexusProvider, useNexus } from "./context";
