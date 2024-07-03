@@ -1,6 +1,6 @@
 {
 	"name": "nexus-ioc-react-adapter",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Nexus-IoC adapter for React library",
 	"author": "Isqanderm <aleksandr.melnik.personal@gmail.com> (https://www.linkedin.com/in/isqander-melnik)",
 	"homepage": "https://github.com/Isqanderm/nexus-ioc-react-adapter#readme",
@@ -21,7 +21,12 @@
 		"container",
 		"React"
 	],
-	"files": ["dist", "package.json", "LICENSE", "README.md"],
+	"files": [
+		"dist",
+		"package.json",
+		"LICENSE",
+		"README.md"
+	],
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -69,6 +74,8 @@
 		"commit": "commit"
 	},
 	"lint-staged": {
-		"src/**/*.{js,ts}": ["npx @biomejs/biome lint --apply"]
+		"src/**/*.{js,ts}": [
+			"npx @biomejs/biome lint --apply"
+		]
 	}
 }
