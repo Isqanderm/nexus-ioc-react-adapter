@@ -33,7 +33,7 @@
 	"license": "MIT",
 	"peerDependencies": {
 		"nexus-ioc": "*",
-		"react": "^16"
+		"react": "^18"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.7.3",
